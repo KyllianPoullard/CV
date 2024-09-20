@@ -3,8 +3,14 @@
 <html lang="fr">
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="Presentation_CV-Miseenforme.css"/>
+
   <title>CV Kyllian POULLARD Rabelais</title>
 
   <meta charset="utf-8">
@@ -18,26 +24,47 @@
 </head>
 
 <body>
-    <table>
-        
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+    <a class="navbar-brand" href="#">
+      <img src="5360938.png" alt="logo" style="width:40px;" >
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#Etudes">Etudes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ci">Competences informatique</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#xp">Expériences professionnelles</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#d">Divers</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="jumbotron text-center">
+    <h1>Curriculum Vitae</h1>
+  </div>
+    <table >
         <tr>
           <td >
             Kyllian <br>POULLARD <br>n55 de la rue du Faubourg-Saint-Honoré, 8e arrondissement de Paris<br>07 80 23 28 32 <br><a href="mailto:kyllian30.poullard@gmail.com?subject=SIO1A">kyllian30.poullard@gmail.com</a>
           </td>
             <td>
-              <img id="Image" src="5360938.png" alt="Image d'exemple" width="100" height="100"></td>
+              <img src="5360938.png" alt="Image d'exemple" width="100" height="100"></td>
             </td>
         </tr>
     </table>
 
     <div id="etudes"> <h2>Etudes</h2> 
-      <table>
+      <table class="table table-dark table-striped">
         <tr>
-          <td class="lignes">
+          <td>
             2022
           </td>
 
-          <td class="lignes">
+          <td>
             Seconde BAC Pro MELEC
           </td>
         </tr>
@@ -54,11 +81,11 @@
         </tr>
 
         <tr>
-          <td class="lignes">
+          <td>
             2024
           </td>
 
-          <td class="lignes">
+          <td>
             Terminale BAC Pro SN ARED (mention assez bien)
           </td>
         </tr>
@@ -66,39 +93,39 @@
     </table>
   </div>
 
-  <div id="ci"> <h2>Compétences informatique</h2> 
-    <table>
+  <div id="ci"> <h2>Competences informatique</h2> 
+    <table class="table table-dark table-striped">
       <tr>
-        <td class="autres_lignes">Systèmes d'exploitation</td>
-        <td class="autres_lignes">Windows 10</td>
+        <td>Systèmes d'exploitation</td>
+        <td>Windows 10</td>
       </tr>
       <tr>
         <td>Langages</td>
-        <td>HTML, CSS, <a href="https://www.python.org/">Python</a></td>
+        <td>HTML, CSS, <button type="button" class="btn btn-outline-danger"> <a href="https://www.python.org/">Python</a></button></td>
       </tr>
       <tr>
-        <td class="autres_lignes">IDE</td>
-        <td class="autres_lignes">Visual Studio</td>
+        <td>IDE</td>
+        <td>Visual Studio</td>
       </tr>
       <tr>
         <td>Frameworks</td>
         <td>CodeIgniter</td>
       </tr>
       <tr>
-        <td class="autres_lignes">Réseau</td>
-        <td class="autres_lignes">VLAN, CISCO</td>
+        <td>Réseau</td>
+        <td>VLAN, CISCO</td>
       </tr>
     </table>
   </div>
 
-  <div id="xp"> <h2>Expériences professionnelles </h2> 
-    <table>
+  <div id="xp"> <h2>Experiences professionnelles </h2> 
+    <table class="table table-dark table-striped">
       <tr>
-        <td class="lignes">
+        <td>
           2022
         </td>
 
-        <td class="lignes">
+        <td>
           Emile KAIL Electricité
         </td>
       </tr>
@@ -115,11 +142,11 @@
       </tr>
 
       <tr>
-        <td class="lignes">
+        <td>
           2024
         </td>
 
-        <td class="lignes">
+        <td>
           Erasmus, entreprise d'informatique en espagne
         </td>
       </tr>
@@ -127,11 +154,11 @@
   </div>
   <div id="d">
     <h2>Divers</h2>
-    <ul>
+    <ul class="list-group list-group-flush">
    
-      <li>Guitare</li>
+      <li class="list-group-item">Guitare</li>
    
-      <li>Jeux vidéo</li>
+      <li class="list-group-item">Jeux vidéo</li>
    </ul>
   </div>
 </body>
