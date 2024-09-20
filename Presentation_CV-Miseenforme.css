@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(200, 200, 200);
+}
+
+#Image{
+    background-color: rgb(75, 75, 75);
+     position: absolute;
+     top: 2px;
+     right: 10px;
+}
+
+#etudes{
+    border: 2px black dotted;
+    border-radius: 10px;
+    background-color: rgb(120, 120, 120);
+    margin-bottom: 5px;
+}
+
+#ci{
+    border: 2px black dotted;
+    border-radius: 10px;
+    background-color: rgb(120, 120, 120);
+    margin-bottom: 5px;
+}
+
+#xp{
+    border: 2px black dotted;
+    border-radius: 10px;
+    background-color: rgb(120, 120, 120);
+    margin-bottom: 5px;
+}
+
+#d{
+    border: 2px black dotted;
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.lignes{
+    background-color: rgb(50, 50, 50);
+}
+
+.autres_lignes{
+    background-color: rgb(200, 200, 200);
+}
